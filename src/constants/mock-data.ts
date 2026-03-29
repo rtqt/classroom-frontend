@@ -1,13 +1,4 @@
-import {BaseRecord} from '@refinedev/core';
-
-export interface Subject extends BaseRecord {
-    id: string;
-    code: string;
-    name: string;
-    department: string;
-    university: string;
-    description: string;
-}
+import { Subject } from '../types';
 
 export const mockSubjects: Subject[] = [
     // ── Massachusetts Institute of Technology ──────────────────────────────
